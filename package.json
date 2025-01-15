@@ -10,5 +10,9 @@
   "devDependencies": {
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.3.0",
+    "uuid": "^11.0.5"
   }
 }
