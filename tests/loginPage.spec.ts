@@ -46,7 +46,7 @@ test.describe("Testing Jam-Board", () => {
     const registerButton = page.getByRole("button", { name: "Register" });
     await expect(registerButton).toBeVisible();
     await registerButton.click();
-    const errorMsg = page.getByText("Failed to register. Please try again.");
+    const errorMsg = page.locator("Failed to register. Please try again.");
     await expect(errorMsg).toBeVisible();
   });
 });
